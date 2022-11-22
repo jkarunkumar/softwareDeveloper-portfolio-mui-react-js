@@ -1,0 +1,341 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* global */
+.setBottomLine{
+  right: 0;
+    margin: 0 auto;
+}
+.resumeLoad {
+  text-decoration: none !important;
+  color: #f5af31  !important;
+}
+.resumeButton:hover {
+  background: #f5af31 !important;
+  color: #2a2a2a !important;
+  border-color: #f5af31 !important;
+}
+.resumeButton:hover .resumeLoad{
+  color: #2a2a2a !important;
+}
+.Head_title:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: #feb633;
+  transition: all 0.3s;
+}
+
+/* NavbarCss */
+ .backGroundAdd {
+  background: #2a2a2a !important;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%) !important;
+}
+
+ .backGroundRemove {
+  background: transparent  !important;
+  box-shadow: none !important;
+}
+/* Navbar end */
+.headerBackgroundAdd {
+  background: #2a2a2a !important;
+}
+
+ .headerBackgroundColor {
+  background: linear-gradient( to right, #2a2a2a 0%, #2a2a2a 63%, #f5af31 50%, #f5af31 100% ) !important;
+
+}
+/* HeaderCss */
+
+.backBut {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  /* background: rgba(0, 0, 0, 0.3); */
+}
+
+.nextBut {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  /* background: rgba(0, 0, 0, 0.3); */
+}
+
+
+/* project css */
+.checkGriud .MuiGrid-root.MuiGrid-container.MuiGrid-item.MuiGrid-direction-xs-column.MuiGrid-grid-xs-12.MuiGrid-grid-lg-4.singlephoto.css-1wvcf7h-MuiGrid-root {
+  text-align: center;
+}
+.singlephoto {
+  padding-bottom: 20px;
+  padding-top: 20px !important;
+}
+.iconMangement {
+    border-radius: 50px;
+    padding: 15px;
+    background: #f5af31;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.cardCSS {
+  background-color: #2a2a2a !important;
+  color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: '100%';
+  box-shadow: 0 0.25em 0.5em 0 rgb(0 0 0 / 25%), 0 0.4em 1.25em 0 rgb(0 0 0 / 15%) !important;
+  margin: 10px 0px;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-w88nxk
+.css-r40f8v-MuiTypography-root {
+  color: rgb(231 227 227 / 60%) !important;
+}
+.cardCSS{
+  color: #fff !important;
+}
+.buttonProject:hover {
+  background: transparent !important;
+  border: 1px solid #f5af31 !important;
+}
+.buttonProject {
+  background: #f5af31 !important;
+  margin-bottom: 20px !important;
+  border: 1px solid #f5af31 !important;
+  text-transform: none !important;
+  font-weight: bold !important;
+}
+.cardCSS:hover .css-r40f8v-MuiTypography-root{
+  color: #2a2a2a !important;
+}
+.cardCSS:hover .buttonProject{
+  background: #2a2a2a !important;
+}
+.cardCSS:hover .iconMangement {
+    background: #2a2a2a !important;
+    color:'#fff '
+}
+.cardCSS:hover  {
+  background: #f5af31 !important;
+  color: #2a2a2a !important;
+}
+.cardCSS:hover .iconMangement path {
+  color: #fff !important;
+}
+.css-1wnsr1i {
+  width: auto !important;
+  min-width: 300px !important;
+  background: #212121 !important;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0 0 0 / 66%), 0 0.4em 1.25em 0 rgb(245 175 49 / 0%) !important;
+  border: 1px solid #f5af31 !important;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+.accordionPortFolio .MuiAccordionSummary-content.MuiAccordionSummary-contentGutters {
+  display: none;
+}
+/* project ends */
+
+/* time css */
+body {
+  background: #2a2a2a;
+}
+
+
+
+h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 1em 2em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+.timePort .vertical-timeline-element-content.bounce-in {
+  background: #303131;
+}
+.timePort h3.vertical-timeline-element-title {
+  color: #fff;
+}
+.timePort h5.vertical-timeline-element-subtitle {
+  color: #f5af31;
+}
+.timePort p#description {
+  color: #a1a1a1;
+  padding: 0px;
+  margin: 10px 0px;
+}
+.timePort span.vertical-timeline-element-icon.bounce-in {
+  background: rgb(193 193 193) !important;
+}
+.timePort .vertical-timeline-element-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 4px #f5af31, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+  box-shadow: 0 0 0 4px #f5af31, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%);
+}
+.timePort .vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: var(--line-color);
+  background: #f5af31;
+}
+.timePort .title {
+  color: '#fff' !important;
+  text-align: center;
+  /* font-family: "Bebas Neue", sans-serif; */
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+/* timline end */
+
+/* contact */
+.contactDiv .MuiFormControl-root.MuiTextField-root.css-136h9lv-MuiFormControl-root-MuiTextField-root {
+  background: #2a2a2a;
+}
+.contactDiv .css-mk9tez-MuiFormLabel-root-MuiInputLabel-root {
+  color: #ffffff;
+}
+.contactDiv .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #f5af31  !important;
+}
+.contactText {
+  color: #fff !important;
+  background: #363737 !important;
+  border-radius: 5p !important;;
+}
+.contactText label#outlined-basic-label {
+  color: #fff !important;
+}
+.contactDiv .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border: 2px solid #f5af31 !important;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiAccordion-root.MuiAccordion-rounded.Mui-expanded.MuiAccordion-gutters.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+  background: transparent;
+  box-shadow: none;
+}
+.accordionPortFolio {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.accordSummaryPortFolio .MuiAccordionSummary-content.MuiAccordionSummary-contentGutters.css-o4b71y-MuiAccordionSummary-content{
+  display: none;
+}
+
+.iconProjects {
+  font-size: 40px !important;
+  color: #f5af31  !important;
+  background: #292929  !important;
+  border-radius: 50px  !important;
+}
+.iconProjects:hover {
+  background: #f5af31  !important;
+  color: #fff  !important;
+}
+
+element.style {
+  opacity: 1;
+  transform: none;
+  transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root.css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root {
+  background: #42a147;
+  color: #ffffff;
+  font-weight: bold;
+}
+.contactText .MuiInputBase-input.MuiOutlinedInput-input {
+  color: #d7d4d4;
+}
+.contactText p#outlined-basic-helper-text {
+  background: #303131;
+  padding: 0px;
+  margin: 0px;
+}
+/* contact end */
+/* drawer */
+.drawerContainer .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft {
+  background: #f5af31;
+}
+a.drawerLetter.active {
+  color: #000;
+}
+/* drawer end */
+/* footer css */
+.footerIcon{
+color: #c1c1c1;
+    font-size: 20px;
+    background: #303131;
+    padding: 6px;
+    margin: 5px;
+    border-radius: 50px;}
+    
